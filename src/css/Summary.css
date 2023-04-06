@@ -1,0 +1,79 @@
+.sum-container {
+  display: flex;
+  flex-direction: column;
+  color: #303b59;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.sum-container h1 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.summaryScore {
+  display: flex;
+  margin-top: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 289px;
+}
+.summaryScore .category {
+  display: flex;
+}
+.summaryScore .category img {
+  width: 24px;
+  padding: 10px;
+}
+.summaryScore .category p {
+  padding: 10px;
+}
+.summaryScore span {
+  color: #303b59;
+}
+.summaryScore span span {
+  color: hsla(0, 0%, 50%, 0.8);
+}
+
+.summaryScore.Reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 70%, 95%);
+}
+
+.summaryScore.Memory {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 70%, 95%);
+}
+
+.summaryScore.Verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 70%, 95%);
+}
+
+.summaryScore.Visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 70%, 95%);
+}
+
+.btnContinue {
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #333b58;
+  color: #fff;
+  width: 289px;
+  height: 47px;
+  margin-top: 38px;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btnContinue:hover {
+  background-image: linear-gradient(#6743ff, #322bea);
+}/*# sourceMappingURL=Summary.css.map */

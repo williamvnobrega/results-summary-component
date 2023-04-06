@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,300;0,500;0,800;1,700&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+
+$font-family: 'Hanken Grotesk', sans-serif;
+
+*{
+    font-family: $font-family;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    display: flex;    
+    align-content: center;
+    margin: auto;
+    max-width: 738px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top: 200px;
+    box-shadow: 1px 1px 50px rgba(201,201,201,0.8);
+}
+
+//media query
+@media only screen and (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+  }
