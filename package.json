@@ -1,6 +1,7 @@
 {
   "name": "result-app",
   "version": "0.1.0",
+  "homepage": "https://williamvnobrega.github.io/results-summary-component",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
